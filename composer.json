@@ -1,0 +1,20 @@
+{
+    "name": "dhiraj/yii2-ffmpeg-static-linux",
+    "description": "Provides static ffmpeg binaries for linux with a convenient path lookup for both ffmpeg and ffprobe.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dhiraj Gupta",
+            "email": "dhiraj@traversient.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+    },
+    "autoload": {
+        "psr-4": {
+            "traversient\\yii\\": ""
+        }
+    }
+}
